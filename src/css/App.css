@@ -1,0 +1,444 @@
+#header {
+  z-index: 99999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #282828;
+  height: 2.13333rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  #header .left {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    #header .left .maizuo {
+      display: block;
+      text-align: center;
+      font-size: 0.59733rem;
+      color: #efefef;
+      line-height: 2.13333rem; }
+    #header .left .icon-list:before {
+      text-align: center;
+      display: block;
+      width: 2.048rem;
+      line-height: 2.13333rem;
+      font-size: 0.72533rem;
+      color: #efefef;
+      border-right: 0.02133rem solid #000000; }
+  #header .right {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.72533rem;
+    text-align: center; }
+    #header .right .fixed {
+      width: 2.38933rem;
+      line-height: 2.13333rem;
+      color: #CCCCCC; }
+      #header .right .fixed .icon-dropdown:before {
+        padding-left: 0.21333rem;
+        font-size: 0.55467rem; }
+    #header .right .user {
+      width: 2.048rem;
+      line-height: 2.13333rem;
+      color: #CCCCCC; }
+      #header .right .user .icon-user:before {
+        font-size: 0.72533rem; }
+
+#menu {
+  width: 11.30667rem;
+  height: 26.32533rem;
+  background: #282828;
+  position: fixed;
+  top: 2.06933rem;
+  z-index: 99999; }
+  #menu ul li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 2.13333rem;
+    font-size: 0.64rem;
+    color: #909090;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 0.68267rem;
+    border-bottom: 0.02133rem solid #404040; }
+    #menu ul li .icon-arrow-right {
+      display: block;
+      font-size: 0.64rem; }
+
+.fade-enter {
+  left: -5.65333rem;
+  opacity: 0; }
+
+.fade-enter-active {
+  left: 0;
+  opacity: 1;
+  -webkit-transition: all 500ms ease;
+          transition: all 500ms ease; }
+
+.fade-leave {
+  left: 0;
+  opacity: 1; }
+
+.fade-leave-active {
+  left: -5.65333rem;
+  opacity: 0;
+  -webkit-transition: all 500ms ease;
+          transition: all 500ms ease; }
+
+#home {
+  overflow: auto;
+  margin-top: 2.176rem; }
+  #home #lunbo img {
+    width: 100%;
+    height: 9.00267rem; }
+  #home .circulation {
+    padding: 0.72533rem; }
+    #home .circulation dl {
+      width: 14.54933rem;
+      background: #fff; }
+      #home .circulation dl dt img {
+        width: 14.54933rem; }
+      #home .circulation dl dd {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding: 0.42667rem 0.64rem; }
+        #home .circulation dl dd .nowdiv .pname {
+          font-size: 0.576rem; }
+        #home .circulation dl dd .nowdiv .pintro {
+          font-size: 0.512rem;
+          color: #999999;
+          margin-top: 0.21333rem; }
+        #home .circulation dl dd h4 {
+          font-size: 0.768rem;
+          color: #f78360; }
+  #home .nowhot {
+    font-size: 0.512rem;
+    color: #616161;
+    background: #fff;
+    border-radius: 0.42667rem;
+    display: block;
+    width: 6.82667rem;
+    height: 1.28rem;
+    border: 0.04267rem solid #ccc;
+    margin: 0 4.56533rem;
+    margin-bottom: 1.28rem; }
+  #home .linear {
+    height: 0.46933rem;
+    border-bottom: 0.04267rem solid #a7a7a7; }
+  #home .hr {
+    margin: 0 auto;
+    width: 2.77333rem;
+    line-height: 0.85333rem;
+    background: #a7a7a7;
+    color: #eee;
+    text-align: center;
+    font-size: 0.42667rem;
+    border-radius: 0.21333rem;
+    margin-top: -0.42667rem; }
+
+#top_view {
+  display: none; }
+  #top_view .icon-top:before {
+    font-size: 1.23733rem;
+    width: 2.048rem;
+    line-height: 2.048rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0.85333rem;
+    right: 0.85333rem; }
+
+#movie {
+  font-size: 1.70667rem;
+  color: #000;
+  overflow: auto;
+  margin-top: 2.176rem; }
+  #movie .tab ul {
+    width: 14.72rem;
+    border-bottom: 1px solid orange;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    margin: 0 0.42667rem; }
+    #movie .tab ul li {
+      font-size: 0.68267rem;
+      line-height: 1.96267rem;
+      width: 50%;
+      text-align: center; }
+      #movie .tab ul li .hightlight1 {
+        color: orange;
+        border-bottom: 0.21333rem solid orange; }
+      #movie .tab ul li .hightlight2 {
+        color: orange;
+        border-bottom: 0.21333rem solid orange; }
+      #movie .tab ul li a {
+        display: block;
+        width: 100%;
+        color: #6a6a6a; }
+  #movie .lfilm {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0.85333rem 0.64rem;
+    border-bottom: 0.064rem dashed #c9c9c9; }
+    #movie .lfilm img {
+      width: 2.56rem;
+      height: 3.54133rem; }
+    #movie .lfilm .ltxt {
+      padding-left: 0.64rem;
+      width: 75%; }
+      #movie .lfilm .ltxt p:nth-child(1) {
+        font-size: 0.68267rem;
+        line-height: 1.36533rem;
+        color: #000;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+        #movie .lfilm .ltxt p:nth-child(1) span:nth-child(2) {
+          color: #fc7103; }
+          #movie .lfilm .ltxt p:nth-child(1) span:nth-child(2) .film-next-icon {
+            font-size: 0.68267rem;
+            color: #CCCCCC; }
+      #movie .lfilm .ltxt p:nth-child(2) {
+        line-height: 1.024rem;
+        color: #8e8e8e;
+        font-size: 0.512rem; }
+      #movie .lfilm .ltxt p:nth-child(3) {
+        line-height: 1.024rem;
+        color: #8e8e8e;
+        font-size: 0.512rem; }
+        #movie .lfilm .ltxt p:nth-child(3) span:nth-child(2) {
+          padding-left: 1.28rem; }
+        #movie .lfilm .ltxt p:nth-child(3) .month {
+          color: orange; }
+        #movie .lfilm .ltxt p:nth-child(3) .week {
+          color: orange; }
+
+#cinema {
+  font-size: 1.70667rem;
+  color: #000;
+  overflow: auto;
+  margin-top: 2.176rem; }
+  #cinema .am-accordion .am-accordion-item .am-accordion-header {
+    height: 1.70667rem;
+    line-height: 1.70667rem;
+    font-size: 0.59733rem;
+    padding-left: 0.68267rem;
+    background: #e1e1e1;
+    margin-bottom: 1px;
+    color: #636363;
+    cursor: pointer; }
+  #cinema .wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    border-radius: 0.21333rem;
+    padding: 0.42667rem 0 0.512rem 0.68267rem;
+    height: 5.12rem; }
+    #cinema .wrap li:nth-child(1) {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      font-size: 0.68267rem;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      #cinema .wrap li:nth-child(1) .icon-zuo:before {
+        font-size: 0.85333rem;
+        color: orange; }
+      #cinema .wrap li:nth-child(1) .icon-tong:before {
+        font-size: 0.85333rem;
+        color: blue; }
+      #cinema .wrap li:nth-child(1) .icon-arrow-right:before {
+        font-size: 0.85333rem; }
+    #cinema .wrap li:nth-child(2) .coke {
+      background-color: #51add0;
+      border-radius: 0.128rem;
+      padding: 0 0.21333rem;
+      margin: 0 0.21333rem;
+      font-style: normal;
+      font-size: 0.42667rem;
+      color: #fff;
+      height: 0.64rem;
+      line-height: 0.64rem; }
+    #cinema .wrap li:nth-child(2) .act {
+      background-color: #ff9658;
+      border-radius: 0.128rem;
+      padding: 0 0.21333rem;
+      margin: 0 0.21333rem;
+      font-style: normal;
+      font-size: 0.42667rem;
+      color: #fff;
+      height: 0.64rem;
+      line-height: 0.64rem; }
+    #cinema .wrap li:nth-child(3) {
+      font-size: 0.512rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 11.52rem; }
+    #cinema .wrap li:nth-child(4) {
+      font-size: 0.512rem;
+      color: #ccc; }
+
+.details {
+  margin-top: 2.112rem; }
+  .details img {
+    width: 100%; }
+  .details .p1 {
+    margin: 0.68267rem 0;
+    padding-left: 0.17067rem;
+    font-size: 0.68267rem;
+    border-left: 0.64rem solid RGB(228, 200, 156); }
+  .details .dtxt {
+    padding: 0 0.85333rem;
+    font-size: 0.59733rem; }
+    .details .dtxt p {
+      margin-bottom: 0.42667rem; }
+  .details button {
+    margin: 0 4.26667rem;
+    margin-top: 1.70667rem;
+    font-size: 0.59733rem;
+    min-width: 6.656rem;
+    height: 1.536rem;
+    line-height: 1.536rem;
+    border: none;
+    background-color: #fe8233;
+    border-radius: 0.768rem;
+    color: #fff; }
+
+#reg {
+  overflow: auto;
+  margin-top: 2.176rem; }
+  #reg .inp {
+    margin-top: 1.70667rem;
+    padding: 0 1.32267rem; }
+    #reg .inp input {
+      padding: 0 0.512rem;
+      width: 13.35467rem;
+      height: 1.45067rem;
+      border: none;
+      background-color: #f6f6f6;
+      font-size: 0.59733rem;
+      position: relative; }
+    #reg .inp .inp2 {
+      margin-top: 1.49333rem; }
+    #reg .inp .frame1 {
+      width: 13.35467rem;
+      height: 0.512rem;
+      border: solid #c4c4c4;
+      border-width: 0 1px 1px 1px;
+      position: absolute;
+      top: 4.69333rem; }
+    #reg .inp .frame2 {
+      width: 13.35467rem;
+      height: 0.512rem;
+      border: solid #c4c4c4;
+      border-width: 0 1px 1px 1px;
+      position: absolute;
+      top: 7.46667rem; }
+    #reg .inp button {
+      margin: 1.92rem 3.2rem 0 3.2rem;
+      width: 6.95467rem;
+      height: 1.87733rem;
+      background-color: #fe8233;
+      color: #fff;
+      padding: 0.34133rem 0.512rem;
+      font-size: 0.64rem;
+      border-radius: 1.536rem;
+      border: none; }
+    #reg .inp p {
+      width: 13.35467rem;
+      font-size: 0.59733rem; }
+
+#own {
+  margin-top: 2.112rem; }
+  #own .top {
+    background-color: #303030;
+    color: #fff;
+    padding: 1.536rem 0.512rem 1.024rem 10%; }
+    #own .top dl {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      #own .top dl img {
+        width: 3.92533rem;
+        height: 3.92533rem;
+        border-radius: 50%;
+        margin-right: 0.59733rem; }
+      #own .top dl dd {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-justify-content: space-around;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+        font-size: 0.59733rem;
+        color: #fff; }
+  #own ul li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 0.512rem;
+    line-height: 2.56rem;
+    color: #222;
+    background: #fff;
+    font-size: 0.59733rem;
+    margin: 0.59733rem 0; }
